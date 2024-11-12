@@ -1,6 +1,6 @@
 # linkedin_bloc_clone
 
-A new Flutter project.
+Flutter | BLOC | LinkedIn | Clone
 
 ## Getting Started
 
