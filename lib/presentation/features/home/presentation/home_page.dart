@@ -61,6 +61,21 @@ class _HomePageState extends State<HomePage> {
                       decoration: BoxDecoration(
                           color: Colors.grey[100],
                           borderRadius: BorderRadius.circular(4)),
+                      child: const Row(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 8.0),
+                            child: Icon(
+                              Icons.search_outlined,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Text(
+                            'Search',
+                            style: TextStyle(fontSize: 16, color: Colors.grey),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   // NEW CHAT ICON
